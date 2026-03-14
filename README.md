@@ -1,96 +1,60 @@
-Here’s a clean, professional **README.md** draft you can use for your project. I’ll make it general but flexible so you can adapt it easily:
+🚀 Mars Rover Image Analysis
+
+This project fetches Mars Rover images from NASA’s public API, processes them using Python, and visualizes key insights like image brightness analysis. 🌌
 
 ---
 
-# 🚀 NASA Space Data Visualization Project
+ 📂 Features
 
-This project explores **NASA’s open space data** by fetching raw datasets (images, exoplanet data, etc.) and transforming them into **visual insights**. The goal is to showcase how Python can be used for **data collection, processing, and visualization** in astronomy.
-
----
-
-## 📂 Features
-
-* 🌌 **NASA Space Images**
-
-  * Fetched stunning raw images from NASA’s public APIs (Mars Rover, Astronomy Picture of the Day, etc.).
-  * Displayed and analyzed using Python libraries.
-
-* 🪐 **Exoplanet Data Analysis**
-
-  * Collected raw exoplanet datasets.
-  * Processed data into **graphs, plots, and charts** to visualize planetary properties.
-
-* 📊 **Data Visualization**
-
-  * Generated graphs with **Matplotlib** & **NumPy**.
-  * Explored trends in exoplanet mass, radius, orbit, and more.
+ 🛰️ **Mars Rover Images**
+ •  Fetch images from NASA API.
+ •  Display and save them locally. 🖼️
+ • Analyze image brightness 🌞
+ • Generate visual graphs with Matplotlib 📊
 
 ---
 
-## ⚙️ Tech Stack
+⚙️ Tech Stack
 
-* **Python** (3.9+)
-* **Requests** → Fetching NASA data via APIs
-* **Matplotlib** → Plotting graphs and charts
-* **NumPy / Pandas** → Data processing and analysis
-* **PIL (Pillow)** → Image handling
+• 🐍 Python 3.9+
+• 🌐 Requests → Fetch NASA API data
+• 🖼️ Pillow (PIL) → Image handling
+• 📊 NumPy / Matplotlib → Data processing & visualization
 
 ---
 
-## 🚀 Getting Started
+🚀 Getting Started
 
-### 1️⃣ Clone the Repository
+1️⃣ Clone the repository
+git clone https://github.com/your-username/mars-rover-image-analysis.git
+cd mars-rover-image-analysis
 
-```bash
-git clone https://github.com/your-username/nasa-space-data.git
-cd nasa-space-data
-```
-
-### 2️⃣ Install Dependencies
-
-```bash
+2️⃣ Install Dependencies
 pip install -r requirements.txt
-```
 
-### 3️⃣ Run the Project
+3️⃣ Run the script
+Mars_Rover_Image_Analysis.py
 
-```bash
-python main.py
-```
 
----
+🔑 API Key Setup
+Get your free NASA API key: https://api.nasa.gov⁠� 🔭
 
-## 🔑 API Key Setup
-
-This project uses NASA’s **public APIs**.
-Get your free API key here: [https://api.nasa.gov](https://api.nasa.gov)
-
-Then add it in the code:
-
-```python
 API_KEY = "YOUR_API_KEY"
-```
+Note: DEMO_KEY works for testing but has limited requests ⚠️
 
----
 
-## 📊 Example Outputs
+📊 Example Outputs
+• 🖼️ Mars Rover images saved locally
+• 📈 Brightness analysis graphs generated with Python
 
-* Mars Rover images displayed with Python.
-* Exoplanet distribution graph (mass vs radius).
-* Astronomy Picture of the Day (APOD) visualization.
 
----
+🌠 Future Work
+ 🔹 Analyze more Mars images over time
+ 🔹 Extend to other cameras or sols (Mars days)
+ 🔹 Add interactive visualizations using Plotly or Bokeh
 
-## 🌠 Future Work
 
-* Add **interactive plots** with Plotly.
-* Automate daily NASA image downloads.
-* Extend analysis to **astrophysics datasets**.
-
----
-
-## 📜 License
-
-This project uses data from NASA’s open APIs. Attribution to **NASA** is required where applicable.
+📜 License
+Data fetched from NASA APIs. Attribution to NASA is required. 🪐
 
 ---
